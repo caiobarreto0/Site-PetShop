@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  background-image: url('./img/banner-topo.jpg');
+  width: 100%;
+  padding: 120px 80px;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo-tipo {
+  max-width: 250px;
+  color: #3c184e;
+}
+
+.paragrafo-principal {
+  font-size: 35px;
+  margin: 0 0 5px 0;
+}
+
+.imagem-pata {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.paragrafo-segundo {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+.segundo-container {
+  max-width: 1024px;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 70px auto;
+  background-color: #ffffffc4;
+  box-shadow: 0 8px 32px #1f26875e;
+}
+
+.segundo-container h1 {
+  font-size: 60px;
+  color: #3c184e;
+  text-align: center;
+  font-weight: 800;
+  margin: 0 0 40px 0;
+}
+
+.segundo-container p {
+  width: 200px;
+  padding: 10px 25px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #3c184e;
+  font-size: 20px;
+  text-align: center;
+}
+
+.segundo-container p a {
+  color: #ffff;
+}
+
+.segundo-container img {
+  width: 20px;
+}
+
+.servicos {
+  width: 100%;
+  padding: 120px 80px;
+}
+
+.servicos h3 {
+  font-size: 36px;
+  color: #3c184e;
+  text-align: center;
+  margin: 0 0 45px 0;
+}
+
+.lista {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  color: #3c184e;
+}
+
+.lista li {
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.destaque {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.galeria-imagens {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img {
+  border-radius: 5px;
+  box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+.faixa1 {
+  padding: 120px 80px;
+  background-color: #3c184e;
+  text-align: center;
+}
+
+.text-faixa {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.redes-socias {
+  text-align: center;
+}
+
+.faixa1 img {
+  margin: 0 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.marcas {
+  width: 100%;
+  padding: 120px 80px;
+}
+
+.marcas h3 {
+  font-size: 36px;
+  color: #3c184e;
+  text-align: center;
+  margin: 0 0 45px 0;
+}
+
+.container-marcas {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container-marcas img {
+  width: 148px;
+  height: 148px;
+  margin: 0 15px;
+}
+
+.localizacao {
+  width: 100%;
+  padding: 120px 80px;
+  text-align: center;
+}
+
+.localizacao h3 {
+  font-size: 36px;
+  color: #3c184e;
+  text-align: center;
+  margin: 0 0 45px 0;
+}
+
+.localizacao p {
+  font-size: 20px;
+  color: #3c184e;
+  text-align: center;
+  margin: 0 0 45px 0;
+}
+
+.localizacao iframe {
+  width: 800px;
+  height: 450px;
+}
+
+footer {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  background-color: #3c184e;
+}
+
+footer p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-align: center;
+  display: block;
+  text-decoration: underline;
+}
+
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+
+  .container,
+  .servicos {
+    padding: 60px 20px;
+  }
+
+  .segundo-container,
+  .lista,
+  .galeria-imagens,
+  .text-faixa,
+  .container-marcas,
+  .localizacao iframe {
+    max-width: 100%;
+  }
+
+  .faixa1 img {
+    margin: 0 10px;
+  }
+
+  .container-marcas img {
+    width: 90px;
+    height: 90px;
+    margin: 0 10px;
+  }
+
+  .localizacao p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  
+
+  .logo-tipo {
+    max-width: 150px;
+  }
+
+  .paragrafo-principal {
+    font-size: 28px;
+  }
+
+  .segundo-container h1 {
+    font-size: 40px;
+  }
+
+  .segundo-container p {
+    font-size: 16px;
+  }
+}
+
+
+
+
